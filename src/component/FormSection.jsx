@@ -148,7 +148,7 @@ const FormSection = () => {
             onClick={handleUpdate}
             className="absolute bottom-5 left-10 w-28 px-4 block py-3 bg-red-500 rounded-md font-semibold text-white text-lg disabled:bg-gray-500"
           >
-            Edite
+            Edit
           </button>
         )}
       </div>
