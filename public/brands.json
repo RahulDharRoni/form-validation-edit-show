@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Manufacturing"
+  },
+  {
+    "name": "Construction materials"
+  },
+  {
+    "name": "Electronics and Optics"
+  },
+  {
+    "name": "Food and Beverage",
+    "subbrand": [
+      "Bakery & confectionery products",
+      "Beverages",
+      "Fish & fish products",
+      "Meat & meat products",
+      "Milk & dairy products",
+      "Other",
+      "Sweets & snack food"
+    ]
+  },
+  {
+    "name": "Furniture",
+    "subbrand": [
+      "Bathroom/sauna",
+      "Bedroom",
+      "Childrens room",
+      "Kitchen",
+      "Living room",
+      "Office",
+      "Other (Furniture)",
+      "Outdoor",
+      "Project furniture"
+    ]
+  },
+  {
+    "name": "Machinery",
+    "subbrand": [
+      "Machinery components",
+      "Machinery equipment/tools",
+      "Manufacture of machinery",
+      "Maritime",
+      "Aluminium and steel workboats",
+      "Boat/Yacht building",
+      "Ship repair and conversion"
+    ]
+  }
+]
