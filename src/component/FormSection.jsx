@@ -21,7 +21,7 @@ const FormSection = () => {
       agree: data.agree,
     };
 
-    fetch("http://localhost:5000/postinfo", {
+    fetch("https://form-validation-edit-show-e97n.vercel.app/postinfo", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -42,13 +42,16 @@ const FormSection = () => {
   console.log(watchFormData);
   const handleUpdate = () => {
     if (existdata) {
-      fetch(`http://localhost:5000/user/${storeData?.data._id}`, {
-        method: "PUT",
-        body: JSON.stringify(watchFormData),
-        headers: {
-          "Content-type": "application/json; charset=UTF-8",
-        },
-      })
+      fetch(
+        `https://form-validation-edit-show-e97n.vercel.app/user/${storeData?.data._id}`,
+        {
+          method: "PUT",
+          body: JSON.stringify(watchFormData),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        }
+      )
         .then((response) => response.json())
         .then((json) => {
           if (json) {

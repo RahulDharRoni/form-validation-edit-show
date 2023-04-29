@@ -4,7 +4,7 @@ const ShowData = () => {
   const [data, setData] = useState([]);
 
   const fetcher = async () => {
-    await fetch("http://localhost:5000/getinfo")
+    await fetch("https://form-validation-edit-show-e97n.vercel.app/getinfo")
       .then((res) => res.json())
       .then((data) => setData(data));
   };
@@ -13,7 +13,7 @@ const ShowData = () => {
   }, [data]);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/delete/${id}`, {
+    fetch(`https://form-validation-edit-show-e97n.vercel.app/delete/${id}`, {
       method: "Delete",
     })
       .then((response) => response.json())
